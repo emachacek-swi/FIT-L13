@@ -7,7 +7,7 @@ namespace DockerMain
     {
         static void Main(string[] args)
         {
-            int end = 30;
+            int end = 20;
             int start = 1;
 
             if (args.Length == 1 && int.TryParse(args[0], out int startArg) && startArg < end)
