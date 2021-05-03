@@ -125,9 +125,9 @@ namespace WindowsApp
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(81, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 13);
+            this.label2.Size = new System.Drawing.Size(21, 13);
             this.label2.TabIndex = 2;
-            this.label2.Text = "3 ks";
+            this.label2.Text = "3 x";
             // 
             // label3
             // 
