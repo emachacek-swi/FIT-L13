@@ -6,11 +6,24 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_main">
-
-    <TextView
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Hello World!" />
+        android:id="@+id/linearLayout1">
 
+      <CheckBox
+        android:text="3x Tomato"
+        android:layout_width="211.0dp"
+        android:layout_height="50.0dp"
+        android:id="@+id/checkBox1" />
+      <CheckBox
+        android:text="1x Pasta"
+        android:layout_width="211.0dp"
+        android:layout_height="50.0dp"
+        android:id="@+id/checkBox2" 
+        android:checked="true"/>
+    </LinearLayout>
 </RelativeLayout>
